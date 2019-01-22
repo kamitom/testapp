@@ -10,13 +10,7 @@
     /* Style the header */
 
 
-.cls00 {
-    background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
+
 
 #hd1 {
     background-color: hotpink;
@@ -68,7 +62,7 @@
             case 0:
                 $('#detailInfo_name').html('陳大明');
                 $('#detailInfo_addr').html('310新竹縣竹東鎮中興路四段195號');
-                $('#detailInfo_fee').html("1399");   
+                $('#detailInfo_fee').html("海洛英");   
                 $('#phone1').html("035915500");   
                 $('#phone2').html("062348923"); 
                 $('#phone3').html("810088008"); 
@@ -83,7 +77,7 @@
                 // code block
                 $('#detailInfo_name').html('陳小明');
                 $('#detailInfo_addr').html('231新北市新店區中華路74號');
-                $('#detailInfo_fee').html("799");
+                $('#detailInfo_fee').html("安非它命");
                 $('#phone1').html("035915500");   
                 $('#phone2').html("034959089"); 
                 $('#phone3').html("0971088033"); 
@@ -98,7 +92,7 @@
             case 2:
                 $('#detailInfo_name').html('李麥克');
                 $('#detailInfo_addr').html('100台北市中正區重慶南路一段122號');
-                $('#detailInfo_fee').html("499");
+                $('#detailInfo_fee').html("車手");
                 $('#phone1').html("034945412");   
                 $('#phone2').html("0987123423"); 
                 $('#phone3').html("8112349983"); 
@@ -138,7 +132,7 @@
 </script>
 
 <header id="hd1">
-  <h2>for DEMO ONLY</h2>
+  <h2>犯罪情資</h2>
 </header>
 <section>
   <nav id="nav1">
@@ -149,7 +143,7 @@
       <li><button onclick="myFunction2()">號碼明細</button></li>
       <li><button onclick="myFunction()">通聯紀錄</button></li>
     </ul>
-    <label>select phone:</label>
+    <label>手機門號</label>
     <select id="mySelect" onchange="func1(this)">
         <option value="886911911911" >886911911911</option>
         <option value="886911222333">886911222333</option>
@@ -164,9 +158,9 @@
         <table style="width:100%">
         <tr>
             <th>電話號碼</th>
-            <th>電話owner</th>
-            <th>住址</th> 
-            <th>每月資費</th>
+            <th>申登人</th>
+            <th>戶籍住址</th> 
+            <th>犯罪前科</th>
         </tr>
         <tr>
             <td id="detailInfo"></td>
@@ -193,9 +187,9 @@
     <div id="myDIV">
         <table style="width:100%">
         <tr>
-            <th>發話電話</th>
-            <th>發話時間</th> 
-            <th>發話目的地</th>
+            <th>通聯對象</th>
+            <th>通話日期</th> 
+            <th>發話基地台</th>
         </tr>
         <tr>
             <td id='phone1'></td>
@@ -219,6 +213,6 @@
   </article>
 </section>
 <footer id="footer1">
-  <p>demo only</p>
+  <p>法務部調查局</p>
 </footer>
 
